@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/Responsive.css" />
+        <link
+            rel="stylesheet"
+            href="/vendor/bootstrap-icons/bootstrap-icons.css"
+        />
+        <title>cushrefmer-management</title>
+    </head>
+    <body>
+        <div id="root">
+            <div class="nav-bar">
+                <div class="logo-area">
+                    <h3 class="logo">e-Cart</h3>
+                </div>
+                <div class="search-area">
+                    <input type="text" /><i class="bi bi-search"></i>
+                </div>
+                <div class="links">
+                    <a href="/">Home</a>
+                    <a href="/about">About</a>
+                    <a href="/contact">Contact</a>
+                    <a href="/projects">Projects</a>
+                    <a href="/skills">Skills</a>
+                </div>
+                <span id="mobile-btn">
+                    <i class="bi bi-list"></i>
+                </span>
+            </div>
+            <!-- {/* Mobile Menu Bar */}-->
+            <div id="close" class="menu" open="false">
+                <h3>Menu</h3>
+                <div class="list">
+                    <div class="search-area">
+                        <input type="text" /><i class="bi bi-search"></i>
+                    </div>
+                    <a href="/"> Home </a>
+                    <a href="/about"> About </a>
+                    <a href="/contact"> Contact </a>
+                    <a href="/projects"> Projects </a>
+                    <a href="/skills"> Skills </a>
+                </div>
+            </div>
+            <!-- Create Section -->
+            <section class="main-section">
+                <h2>Main <span>Section</span></h2>
+                <div class="row">
+                    <a href="#" class="products"
+                        ><img src="images/product__13.png" />
+                        <h3 id="product-name">Tasty Chicken Biriyani</h3>
+                        <h3 id="price">Only - <span>120$ BDT</span></h3>
+                        <i id="cart" class="bi bi-cart-plus"></i>
+                    </a>
+                </div>
+            </section>
+            <!-- End Section -->
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
